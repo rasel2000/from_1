@@ -8,7 +8,7 @@ nav li a{
     color: darkorange;
     font-size: 20px;
 }
-nav ul {
+nav  > ul{
 display: flex;
 }
 nav li:hover{
@@ -20,4 +20,17 @@ h1{
     font-size: 50px;
     background-color: aqua;
     border-radius: 50px;
+    box-shadow: 10px 10px 15px rebeccapurple;
+}
+.era
+{
+    display: none;
+    position: absolute;
+    background-color: blue;
+    box-shadow: 10px 10px 15px red ;
+    border-radius: 15px;
+}
+nav >ul >li:hover >ul
+{
+    display: block;
 }
